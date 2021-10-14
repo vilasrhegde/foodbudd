@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vilasrhegde/foodbudd/static/css/main.3c4ee619.chunk.css",
+    "main.js": "/vilasrhegde/foodbudd/static/js/main.68ceeb44.chunk.js",
+    "main.js.map": "/vilasrhegde/foodbudd/static/js/main.68ceeb44.chunk.js.map",
+    "runtime-main.js": "/vilasrhegde/foodbudd/static/js/runtime-main.b4e247ea.js",
+    "runtime-main.js.map": "/vilasrhegde/foodbudd/static/js/runtime-main.b4e247ea.js.map",
+    "static/js/2.e7e30fc4.chunk.js": "/vilasrhegde/foodbudd/static/js/2.e7e30fc4.chunk.js",
+    "static/js/2.e7e30fc4.chunk.js.map": "/vilasrhegde/foodbudd/static/js/2.e7e30fc4.chunk.js.map",
+    "static/js/3.e249899f.chunk.js": "/vilasrhegde/foodbudd/static/js/3.e249899f.chunk.js",
+    "static/js/3.e249899f.chunk.js.map": "/vilasrhegde/foodbudd/static/js/3.e249899f.chunk.js.map",
+    "index.html": "/vilasrhegde/foodbudd/index.html",
+    "static/css/main.3c4ee619.chunk.css.map": "/vilasrhegde/foodbudd/static/css/main.3c4ee619.chunk.css.map",
+    "static/js/2.e7e30fc4.chunk.js.LICENSE.txt": "/vilasrhegde/foodbudd/static/js/2.e7e30fc4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/vilasrhegde/foodbudd/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4e247ea.js",
+    "static/js/2.e7e30fc4.chunk.js",
+    "static/css/main.3c4ee619.chunk.css",
+    "static/js/main.68ceeb44.chunk.js"
+  ]
+}

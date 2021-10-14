@@ -27,7 +27,7 @@ const App = () =>{
   const [recipes,setRecipes] = useState([]);
   const [search,setSearch] = useState("");
 
-  const [query,setQuery] = useState('Special');
+  const [query,setQuery] = useState('recipe');
 
   useEffect(()=>{
        getRecipes();

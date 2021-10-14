@@ -1,0 +1,52 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(5, 5, 5, 0.637);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 35%;
+    transition: 0.3s;
+    transform: scale(1);
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.recipe:hover{
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+  }
+.image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(5px black);
+}
+@media(max-width:700px){
+    .recipe{
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgba(5, 5, 5, 0.637);
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: white;
+        align-items: center;
+        min-width: 45%;
+        transition: 0.3s;
+        transform: scale(1);
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+    .recipe:hover{
+        box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+      }
+    .image{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        filter: drop-shadow(5px black);
+    }
+}

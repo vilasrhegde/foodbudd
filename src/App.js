@@ -1,9 +1,9 @@
 import React,{useEffect,useState} from "react";
-import logo from './logo.svg';
+// import logo from '../public/vilasC1.webp';
 import Recipe from "./recipe";
 import './App.css';
 
-//from chrome
+// from chrome
 // const http = require('http');
 // const port = process.env.PORT || 3000
 
@@ -49,23 +49,24 @@ const App = () =>{
   };
 
   return(
-    <div className="App">
+    <div  className="App">
     <br/>
+    <div id="pg1"></div>
     <div className="header">
-    <center><h1 className="appname">Foodbud</h1></center>
-    <h2 className="fh1" onClick={()=>setCounter(counter+1)}>     Hello Foodies! {counter}</h2> 
+    <center><a href="#pg1"><h1 className="appname">Foo<span>db</span>udd</h1></a></center>
+    <h2 className="fh1" onClick={()=>setCounter(counter+1)}>Hello Foodies! {counter}</h2> 
  
     </div>
    
 
-    <form onSubmit={getSearch} className="search-form">
-      <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
+    <form  onSubmit={getSearch} className="search-form">
+      <input className="search-bar" placeholder="Find out more..." type="text" value={search} onChange={updateSearch}/>
       <button className="search-button"
        type="submit"> 
-        Search                                               
+        🔍                                               
       </button>
     </form>
-    <div className="recipes">
+    <div  className="recipes">
     {recipes.map(recipe=>(
       <Recipe
        key={recipe.recipe.label} 

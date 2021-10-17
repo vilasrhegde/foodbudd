@@ -54,7 +54,7 @@ const App = () =>{
     <div id="pg1"></div>
     <div className="header">
     <center><a href="#pg1"><h1 className="appname">Foo<span>db</span>udd</h1></a></center>
-    <h2 className="fh1" onClick={()=>setCounter(counter+1)}>Hello Foodies! {counter}</h2> 
+    <h2 className="fh1" onClick={()=>setCounter(counter+1)}>     Hello Foodies! {counter}</h2> 
  
     </div>
    

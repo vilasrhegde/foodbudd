@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vilasrhegde/foodbudd/static/css/main.838df620.chunk.css",
-    "main.js": "/vilasrhegde/foodbudd/static/js/main.eca5b157.chunk.js",
-    "main.js.map": "/vilasrhegde/foodbudd/static/js/main.eca5b157.chunk.js.map",
+    "main.css": "/vilasrhegde/foodbudd/static/css/main.9029a0b7.chunk.css",
+    "main.js": "/vilasrhegde/foodbudd/static/js/main.45cf003f.chunk.js",
+    "main.js.map": "/vilasrhegde/foodbudd/static/js/main.45cf003f.chunk.js.map",
     "runtime-main.js": "/vilasrhegde/foodbudd/static/js/runtime-main.35ee644b.js",
     "runtime-main.js.map": "/vilasrhegde/foodbudd/static/js/runtime-main.35ee644b.js.map",
     "static/js/2.82aed2ac.chunk.js": "/vilasrhegde/foodbudd/static/js/2.82aed2ac.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.23d8fa5a.chunk.js": "/vilasrhegde/foodbudd/static/js/3.23d8fa5a.chunk.js",
     "static/js/3.23d8fa5a.chunk.js.map": "/vilasrhegde/foodbudd/static/js/3.23d8fa5a.chunk.js.map",
     "index.html": "/vilasrhegde/foodbudd/index.html",
-    "static/css/main.838df620.chunk.css.map": "/vilasrhegde/foodbudd/static/css/main.838df620.chunk.css.map",
+    "static/css/main.9029a0b7.chunk.css.map": "/vilasrhegde/foodbudd/static/css/main.9029a0b7.chunk.css.map",
     "static/js/2.82aed2ac.chunk.js.LICENSE.txt": "/vilasrhegde/foodbudd/static/js/2.82aed2ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.35ee644b.js",
     "static/js/2.82aed2ac.chunk.js",
-    "static/css/main.838df620.chunk.css",
-    "static/js/main.eca5b157.chunk.js"
+    "static/css/main.9029a0b7.chunk.css",
+    "static/js/main.45cf003f.chunk.js"
   ]
 }

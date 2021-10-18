@@ -9,17 +9,13 @@
     align-items: center;
     min-width: 60%;
     transition: 0.3s;
-    transform: scale(1);
     cursor: pointer;
     padding: 5px 5px;
     overflow: hidden;
-    width: auto;
 }
 .recipe:hover{
     box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
     background: linear-gradient(rgba(255, 255, 255, 0.829),rgba(255, 255, 255, 0.418));
-    width: fit-content;
 }
   
 .image{
@@ -62,7 +58,6 @@ button:hover{
         align-items: center;
         max-width: 90%;
         transition: 0.3s;
-        transform: scale(1);
         cursor: pointer;
         padding: 5px 5px;
         margin:10px auto;
@@ -70,7 +65,7 @@ button:hover{
     }
     .recipe:hover{
         box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2);
-        transform: scale(1);
+
         background: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.7));
       }
       h1{

@@ -18,16 +18,19 @@ const Recipe =({title,calories,image,ingredients,healthLabels,cautions,dishType,
                  </li>
                  ))}
             </ol>   
+            <div className="details">
             <p><b>Calories : </b>{calories}</p>
             <p><b>Cautions: </b>{cautions}</p> 
             <p><b>Dish Type: </b>{dishType}</p>
             <p><b>Meal type: </b>{mealType}</p> 
             <p><b>Cuisine type: </b>{cuisineType}</p>
-            {/* <p><b>Total Nutrients: </b>{totalNutrients}</p> */}
-            {/* <p><b>Total Daily: </b>{totalDaily}</p> */}
+            </div>
             <button className="knowmore">
             <a href={url} target="_blank">Know more</a>
             </button>
+            {/* <p><b>Total Nutrients: </b>{totalNutrients}</p> */}
+            {/* <p><b>Total Daily: </b>{totalDaily}</p> */}
+            
             {/* <p className="health"><b>Health label :</b>{healthLabels} </p> */}
             {/* <p><b>Digest: </b>{digest}</p> */}
            

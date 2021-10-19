@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+::-webkit-scrollbar{
+  display: none;
+
+}
+
+
 .App{
-  min-height: 100vh;
+  font-family: 'Courgette', cursive;
+   min-height: 100vh;
   max-width: 100%;
-  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);  overflow-x: hidden;
+  background-image: radial-gradient(circle 500px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);  overflow-x: hidden;
   scroll-behavior: smooth;
   transition: 0.5s;
 }
@@ -12,11 +20,12 @@
   box-shadow: 0px 5px 5px black;
   display: block;
   margin: 0 auto;
-  padding:10px 0;
+
   font-size: 50px;
-  background: rgba(68, 122, 172, 0.733);
+  background: rgba(68, 51, 168, 0.74);
   backdrop-filter: blur(10px);
   cursor: pointer;
+  padding-left: 20px;
 }
 .appname:hover{
   color: rgba(255,255,255,1);
@@ -26,8 +35,8 @@ span{
 }
 a{
   text-decoration: none;
-
 }
+
 .header{
   top: 0;
   width: 100%;
@@ -38,7 +47,7 @@ a{
 
 
 .search-form{
-  min-height:6vh;
+  min-height:0vh;
   width: 40%;
   position: fixed;
   right: 5px;
@@ -95,39 +104,48 @@ a{
   min-width: 20%;
   border-radius:50px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 247, 247, 0.24);
 }
 .dropcontent{
-  background: rgba(255,255,255,0.5);
+  background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.8));
+  border-radius: 50px;
 }
 
 @media(max-width:700px){
+ 
   .appname{
     width: 100%;
     color:rgba(212, 212, 212, 0.664);
     transition: 1s;
     box-shadow: 0px 5px 5px black;
-    display: block;
-    margin: 0 auto;
-    padding:3px 0;
-    font-size: 10px;
-    background: rgba(68, 122, 172, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px !important;
+    background: rgba(68, 51, 168, 0.74);
     backdrop-filter: blur(10px);
     cursor: pointer;
-  }
+    text-align: center;
+  
  
+  }
 .header{
   width: 100%;
-  position: sticky top;
-  top: 0;
   padding:0 ;
-  max-height: 20px;
+  max-height: 10px;
   z-index: 100;
+}
+.footer{
+display: none;
 }
   .search-form{
     min-height: 0;
     width: 90%;
-    margin: 25% auto;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -173,7 +191,7 @@ a{
 }
 
 
-@media(max-width:1400px){
+/* @media(max-width:1400px){
   .appname{
     width: 100%;
     color:rgba(212, 212, 212, 0.664);
@@ -183,9 +201,9 @@ a{
     margin: 0 auto;
     padding:10px 0;
     font-size: 50px;
-    background: rgba(68, 122, 172, 0.733);
+    background: rgba(68, 51, 168, 0.74);
     backdrop-filter: blur(10px);
     cursor: pointer;
     text-align: left;
   }
-}
+} */

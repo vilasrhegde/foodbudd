@@ -5,7 +5,7 @@ display: none;
 }
 .App{
   font-family: 'Josefin Sans', sans-serif;
-     min-height: 100vh;
+  min-height: 100vh;
   max-width: 100%;
   background-image: radial-gradient(circle 500px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);  overflow-x: hidden;
   scroll-behavior: smooth;
@@ -20,15 +20,37 @@ display: none;
   margin: 0 auto;
   padding: 15px;
   font-size: 50px;
-  background: rgba(68, 51, 168, 0.74);
+  background: rgba(0, 0, 0, 0.356);
   backdrop-filter: blur(10px);
   cursor: pointer;
 }
+/* .App{
+  font-family: 'Josefin Sans', sans-serif;
+  min-height: 100vh;
+  max-width: 100%;
+  background:rgba(121, 178, 252, 0.99) ;
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+.appname{
+  width: 100%;
+  color:rgba(255, 255, 255, 0.596);
+  transition: 1s;
+  box-shadow: 0px 5px 5px black;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 50px;
+  background:rgba(15, 47, 88, 0.5);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+} */
 .appname:hover{
   color: rgba(255,255,255,1);
 }
 span{
-  color: black;
+  color: #30c7ec;
 }
 a{
   text-decoration: none;
@@ -60,11 +82,11 @@ a{
   padding: 10px;
   transition: 0.4s;
   border-radius: 50px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 .search-bar:focus{
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.8);
   outline: none;
   border: none;
 }
@@ -109,21 +131,24 @@ a{
   border-radius: 50px;
 }
 
-@media(max-width:700px){
+@media(max-width:500px){
  
   .appname{
     width: 100%;
-    color:rgba(212, 212, 212, 0.664);
+    color:rgba(212, 212, 212, 0.8);
     transition: 1s;
     box-shadow: 0px 5px 5px black;
     display: block;
     margin: 0 auto;
     padding: 15px;
     font-size: 25px;
-    background: rgba(68, 51, 168, 0.74);
+    background: rgba(53, 52, 52, 0.6);
     backdrop-filter: blur(10px);
     cursor: pointer;
  
+  }
+  span{
+    color: #30c7ec;
   }
 .header{
   width: 100%;
@@ -134,39 +159,40 @@ a{
 .footer{
 display: none;
 }
-  .search-form{
-    min-height: 0;
-    width: 90%;
-    margin-top: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    z-index: 1;
-  }
-  .search-bar{
-    width: 70%;
-    border: none;
-    padding: 7px;
-    transition: 0.4s;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5);
-  }
-  .search-button{
-    background: transparent;
-    border: none;
-    padding:0;
-    width: auto;
-    font-size: 25px;
-    color:white;
-    transition: 0.5s;
-    margin-left: 0;
-    position: relative;
-    transition: 0.3s;
-    transform: scale(1);
-  }
+.search-form{
+  min-height: 0;
+  width: 90%;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  z-index: 1;
+}
+.search-bar{
+  width: 70%;
+  border: none;
+  padding: 7px;
+  transition: 0.4s;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.search-button{
+  background: transparent;
+  border: none;
+  padding:0;
+  width: auto;
+  font-size: 25px;
+  color:white;
+  transition: 0.5s;
+  margin-left: 0;
+  position: relative;
+  transition: 0.3s;
+  transform: scale(1);
+}
+  
   .app_healthLabels{
     margin: 0 3px;
     max-width: 10px;
@@ -181,9 +207,44 @@ display: none;
     flex-wrap: wrap;
     font-size: 20px;
     margin: 0 auto;
+    z-index: 2;
   }
 }
-
+@media (max-width:900px) {
+  .search-form{
+    min-height: 0;
+    width: 90%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
+  }
+  .search-bar{
+    width: 70%;
+    border: none;
+    padding: 10px;
+    transition: 0.4s;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.6);
+  }
+  .search-button{
+    background: transparent;
+    border: none;
+    padding:0;
+    width: auto;
+    font-size: 25px;
+    color:white;
+    transition: 0.5s;
+    margin-left: 0;
+    position: relative;
+    transition: 0.3s;
+    transform: scale(1);
+  }
+}
 
 /* @media(max-width:1400px){
   .appname{

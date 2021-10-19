@@ -9,7 +9,7 @@ const Recipe =({title,calories,image,ingredients,healthLabels,cautions,dishType,
 
        !=null&&( <div className={style.recipe} onClick={url} >
             <h1>{title}</h1>
-            <img className={style.image} src={image} alt="image" />
+            <img className={style.image} src={image} alt="no image" />
             <ol>
             <h3>How to make?</h3>
                 {ingredients.map(ingredients =>(

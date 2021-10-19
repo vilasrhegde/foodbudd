@@ -4,6 +4,7 @@ import Recipe from "./recipe";
 import './App.css';
 
 
+
 // from chrome
 // const http = require('http');
 // const port = process.env.PORT || 3000
@@ -18,7 +19,9 @@ import './App.css';
 //   console.log(`Server running at port `+port);
 // });
 
+
 const App = () =>{
+
 
 
   const APP_ID="2476cbe4";
@@ -66,9 +69,9 @@ const App = () =>{
   return(
     <div  className="App">
     <br/>
-    <div id="pg1"></div>
+    <div id="home"></div>
     <div className="header">
-    <a href="#pg1"><h1 className="appname">Foo<span>db</span>udd</h1></a>
+    <a href="#home"><h1 className="appname">Foo<span>db</span>udd</h1></a>
     {/* <h2 className="fh1" onClick={()=>setCounter(counter+1)}>     Hello Foodies! {counter}</h2>  */}
  
     </div>
